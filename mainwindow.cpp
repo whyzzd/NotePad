@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    setWindowTitle("MyNotePad");
+    setWindowTitle("SimNotePad");
     this->codeName="UTF-8";
 
     init();
